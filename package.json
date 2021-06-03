@@ -1,0 +1,16 @@
+{
+  "name": "cucumber-selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  }
+}
