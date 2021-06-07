@@ -6,11 +6,13 @@ class CustomWorld extends World {
     driver = new seleniumWebdriver.Builder()
         .forBrowser('firefox')
         .build()
-    
+
     constructor(options) {
         super(options)
     }
 }
 
 setWorldConstructor(CustomWorld);
-setDefaultTimeout(90*1000);
+setDefaultTimeout(90 * 1000);
+
+// TODO
